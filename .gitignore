@@ -1,0 +1,35 @@
+!/.gitignore
+# Dados
+/data/raw/
+/data/interim/
+/data/processed/
+*.csv
+*.xlsx
+
+# Ambiente virtual
+/venv/
+/env/
+*.pyc
+
+# IDEs
+.idea/
+/.vscode/
+
+# Logs
+*.log
+
+# Checkpoints do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Cache e compilação
+__pycache__/
+*.py[cod]
+
+# Modelos treinados
+/models/
+*.h5
+*.pkl
+
+# Configurações locais
+config.yaml
+.env
